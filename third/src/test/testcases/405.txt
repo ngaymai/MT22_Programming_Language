@@ -1,0 +1,14 @@
+
+        foo: function auto(b: integer, c: string) {
+        a: string = "abc";
+        }
+        main:function void() {
+            x, y: integer = 1, foo(1, "abc");
+            a: integer;
+            main: integer;
+            for(a=1, a<10, a+1) {
+            a: integer = 1;
+             a: string = "abc";
+            }
+        }
+        

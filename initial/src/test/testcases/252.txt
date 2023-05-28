@@ -1,0 +1,7 @@
+            
+                main: function void(){
+                         r,e,t,y,d,s: integer = 1,2,3,4,5,6;
+                         r = r + e * t / y - d % s;                         
+                        
+                    }
+                

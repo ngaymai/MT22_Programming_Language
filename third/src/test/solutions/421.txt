@@ -1,0 +1,1 @@
+Illegal array literal: ArrayLit([ArrayLit([StringLit(fasdfs), Id(a)]), ArrayLit([IntegerLit(2)])])

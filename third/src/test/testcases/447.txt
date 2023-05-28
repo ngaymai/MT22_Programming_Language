@@ -1,0 +1,19 @@
+
+        foo1: function integer(inherit a: integer, b: integer) {
+        printString("hello");
+            a = printInteger("fadsf");
+            c: integer;
+            c = foo("fdadf",b);
+            a = 10;
+        }
+        foo: function array[4] of integer(a: string, y: integer) inherit foo1 {
+//             super(a, a);
+            preventDefault();
+            a: integer;
+            return {1,2,3,4};
+        }
+
+        main: function void() {
+        // a = b;
+        }
+        

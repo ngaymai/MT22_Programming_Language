@@ -1,0 +1,11 @@
+
+           foo1: function integer(a: integer, inherit b: integer, out c: string, d: float) {
+               return a+b;
+           }
+
+           foo: function integer(a: string, y: integer) inherit foo1 {
+               super(10,20, "arwerwwer", 10.1);
+                b: float; // redeclared b from foo1
+               return 1;
+           }
+           

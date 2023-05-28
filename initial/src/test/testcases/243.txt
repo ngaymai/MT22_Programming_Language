@@ -1,0 +1,16 @@
+    
+                main: function void(){                    
+                    number: integer;
+   
+   do {
+       printString(" ");
+       number = readInt();
+       
+       if (number < 0) {
+           printString(".\n");
+       }
+   } while (number < 0);
+   
+    number = readInt();
+   
+                }

@@ -1,0 +1,22 @@
+      
+                main: function void(){
+                    i, j: integer;
+
+                    for (i = 1, i <= 5, i+1) {
+                        continue;
+                    }
+
+                // sdffefg
+                j = 1;
+                while (j <= 5) {      
+                    j = j+2;
+                }
+ 
+                a,b : integer =10, 20;
+                if (a > b) {
+                    printString("a lon hon b\n");
+                } else {
+                    printString("a nho hon hoac bang b\n");
+                } 
+                }
+                

@@ -1,0 +1,7 @@
+    
+                main: function void(){                    
+                    a: array [4] of integer;
+                    a = {1, 5, 7, 12} ;
+                    for(i =0 ,i<4,i+1)
+                    printint(a[i]);
+                }

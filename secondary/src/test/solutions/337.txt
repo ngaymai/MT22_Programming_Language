@@ -1,0 +1,7 @@
+Program([
+	VarDecl(x, ArrayType([5], IntegerType))
+	VarDecl(y, ArrayType([5], IntegerType))
+	VarDecl(z, ArrayType([5], IntegerType))
+	FuncDecl(f1, ArrayType([5], IntegerType), [Param(f, IntegerType)], None, BlockStmt([]))
+	FuncDecl(main, VoidType, [], None, BlockStmt([VarDecl(a, ArrayType([2, 2], FloatType)), VarDecl(b, ArrayType([2, 2], FloatType)), VarDecl(c, ArrayType([2, 2], FloatType))]))
+])

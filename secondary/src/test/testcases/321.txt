@@ -1,0 +1,5 @@
+
+                        x,y,z:integer;
+                        g, h , i , k: string;
+                        q,t: float;
+                    

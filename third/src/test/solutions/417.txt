@@ -1,0 +1,1 @@
+Type mismatch in Variable Declaration: VarDecl(c, AutoType, FuncCall(foo, [IntegerLit(1), Id(d)]))

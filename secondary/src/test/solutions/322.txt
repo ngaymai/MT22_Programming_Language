@@ -1,0 +1,7 @@
+Program([
+	VarDecl(x, IntegerType, IntegerLit(10))
+	VarDecl(y, FloatType, FloatLit(10.5))
+	VarDecl(z, StringType, StringLit(hello))
+	FuncDecl(foo, StringType, [Param(a, StringType), OutParam(b, StringType)], None, BlockStmt([AssignStmt(Id(b), Id(a)), ReturnStmt(Id(b))]))
+	FuncDecl(main, VoidType, [], None, BlockStmt([CallStmt(foo, Id(z))]))
+])

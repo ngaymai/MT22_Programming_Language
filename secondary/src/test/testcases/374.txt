@@ -1,0 +1,21 @@
+
+                   main: function integer () {
+                     n: integer;
+                     n=readinteger();
+                       if (n == 0) return 1;
+                       else
+                           return n * fact(n - 1);
+                   }
+                   inc: function void( n: integer, delta: integer) {
+                       n = n + delta;
+                       check: boolean = false;
+                       if ((n>3)&&(delta<3))
+                           check=true;
+                       else check = false;
+                       while ((n>3)&&(delta<3)){
+                           printinteger(n);
+
+                           delta=delta+4;
+                           if (n==5) printNum(delta);
+                       }
+                   }

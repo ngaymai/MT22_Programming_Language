@@ -1,0 +1,13 @@
+Program([
+	VarDecl(age, IntegerType)
+	VarDecl(x, ArrayType([5], IntegerType))
+	VarDecl(y, ArrayType([5], IntegerType))
+	VarDecl(z, ArrayType([5], IntegerType))
+	VarDecl(a, AutoType, IntegerLit(1))
+	VarDecl(b, AutoType, FloatLit(2.3))
+	VarDecl(c, AutoType, BooleanLit(True))
+	VarDecl(s, AutoType, BinExpr(+, Id(x), Id(age)))
+	VarDecl(g, AutoType, BinExpr(-, Id(y), Id(age)))
+	VarDecl(r, AutoType, BinExpr(*, Id(z), FuncCall(foo, [Id(age)])))
+	FuncDecl(main, VoidType, [], None, BlockStmt([AssignStmt(Id(s), ArrayLit([BooleanLit(True), BooleanLit(True), BooleanLit(False), BooleanLit(True)])), WhileStmt(BinExpr(&&, BinExpr(>, Id(age), IntegerLit(0)), BinExpr(<=, Id(age), IntegerLit(100))), BlockStmt([CallStmt(Write, StringLit(Enter age (1 - 100): )), CallStmt(Readln, Id(age)), IfStmt(BinExpr(<, Id(age), IntegerLit(1)), CallStmt(Writeln, StringLit(Age cannot be less than 1...))), IfStmt(BinExpr(>, Id(age), IntegerLit(100)), CallStmt(Writeln, StringLit(Age cannot be greater than 100...)))]))]))
+])

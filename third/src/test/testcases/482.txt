@@ -1,0 +1,9 @@
+
+        foo: function auto(x: integer){}
+        foo1: function auto(x: float){}
+        fact : function integer (n : integer) {
+            a : array [2] of integer;
+            a[1] = (foo1(foo(1900)) + 1);
+        }
+        main: function integer(){}
+    

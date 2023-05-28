@@ -1,0 +1,7 @@
+
+
+                    main: function integer () {
+                        i = f(g(h[5*t]));
+                    }
+
+                    

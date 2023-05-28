@@ -1,0 +1,7 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([VarDecl(n, IntegerType), CallStmt(printf, StringLit(
+Nhap n = )), CallStmt(scanf, StringLit(%d), Id(n)), IfStmt(BinExpr(<, Id(n), IntegerLit(2)), BlockStmt([CallStmt(printf, StringLit(
+%d khong phai so nguyen to), Id(n)), ReturnStmt(IntegerLit(0))])), VarDecl(count, IntegerType, IntegerLit(0)), ForStmt(AssignStmt(Id(i), IntegerLit(2)), BinExpr(<=, Id(i), FuncCall(sqrt, [Id(n)])), BinExpr(+, Id(i), IntegerLit(1)), BlockStmt([IfStmt(BinExpr(==, BinExpr(%, Id(n), Id(i)), IntegerLit(0)), BlockStmt([AssignStmt(Id(count), BinExpr(+, Id(count), IntegerLit(1)))]))])), IfStmt(BinExpr(==, Id(count), IntegerLit(0)), BlockStmt([CallStmt(printf, StringLit(
+%d la so nguyen to), Id(n))]), BlockStmt([CallStmt(printf, StringLit(
+%d khong phai so nguyen to), Id(n))]))]))
+])

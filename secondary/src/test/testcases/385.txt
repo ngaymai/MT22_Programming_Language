@@ -1,0 +1,13 @@
+
+                    nty: function float(){
+                    c,y,t: integer;
+                    // this is readlinee
+
+                    htg(/*etsd*/);
+                    }
+                    main: function integer () {
+                        i = f(g(h[5*t(9,1)]));
+                        // nty(i)
+                    }
+
+                    

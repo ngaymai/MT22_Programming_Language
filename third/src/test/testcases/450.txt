@@ -1,0 +1,16 @@
+
+        foo: function auto() {}
+        
+        inc : function void (out b : integer, d: float){
+            i: integer;
+            for (i = 0, i < 10, 1) {
+                if (b > 1) {
+                    b = b + 1;
+                    break;
+                }
+                continue;
+            }   
+            continue;
+        }
+            
+        

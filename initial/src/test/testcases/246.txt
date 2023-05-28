@@ -1,0 +1,10 @@
+        
+                prin: function void(){
+                    x: array [3] of string;
+                    x = {"Kangx\i", "Yon"gzheng", "Qianlong"};
+                }    
+                main: function void(){
+                    x: integer = 2;
+                    if(x>=0) print(x);     
+                    }
+                

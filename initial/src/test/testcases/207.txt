@@ -1,0 +1,8 @@
+x: integer = 65;                
+                main: function void(){
+                    do{
+                        x = x -5;
+                    }
+
+                    while(x>=0);
+                }

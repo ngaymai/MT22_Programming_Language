@@ -1,0 +1,5 @@
+main: function void() {
+          printString("Enter an integer: ");
+            num: integer = readInt();
+            printInt(num);
+        }

@@ -1,0 +1,16 @@
+  
+               main: function integer () {
+                 n: integer;
+                 n=readInteger();
+                   if (n == 0) return 1;
+                   else
+                       return n * fact(n - 1);
+               }
+               inc: function void( n: integer, delta: integer) {
+                   n = n + delta;
+                   while (n*delta>3||n-delta<3){
+                       printInteger(n);
+                       n = n *9 + 4 /3 % 7;
+                       delta=delta+4;
+                   }
+               }

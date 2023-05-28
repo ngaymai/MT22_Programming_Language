@@ -1,0 +1,10 @@
+foo: function integer(a: integer){
+                if (a == 1) return 1;
+                else return 0.5;
+            }
+            
+            main: function void(){
+                a: float;
+                if(1) x = 1;
+                else x = 2;
+            }

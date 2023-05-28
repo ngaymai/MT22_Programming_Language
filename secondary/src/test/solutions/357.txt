@@ -1,0 +1,12 @@
+Program([
+	VarDecl(x, ArrayType([5], IntegerType))
+	VarDecl(y, ArrayType([5], IntegerType))
+	VarDecl(z, ArrayType([5], IntegerType))
+	VarDecl(a, AutoType, IntegerLit(1))
+	VarDecl(b, AutoType, FloatLit(2.3))
+	VarDecl(c, AutoType, BooleanLit(True))
+	VarDecl(s, AutoType, Id(x))
+	VarDecl(g, AutoType, Id(y))
+	VarDecl(r, AutoType, Id(z))
+	FuncDecl(main, VoidType, [], None, BlockStmt([]))
+])

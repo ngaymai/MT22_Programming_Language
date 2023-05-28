@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([VarDecl(x, ArrayType([3, 3], StringType)), AssignStmt(Id(x), ArrayLit([ArrayLit([StringLit(aaa), StringLit(bbb), StringLit(ccc)]), ArrayLit([StringLit(eee), StringLit(edc), StringLit(esae)]), ArrayLit([StringLit(ewq), StringLit(eew), StringLit(erwd)])])), AssignStmt(ArrayCell(x, [IntegerLit(0), IntegerLit(0)]), BinExpr(::, BinExpr(::, BinExpr(::, ArrayCell(x, [IntegerLit(1), IntegerLit(2)]), ArrayCell(x, [IntegerLit(2), IntegerLit(2)])), ArrayCell(x, [IntegerLit(1), IntegerLit(0)])), ArrayCell(x, [IntegerLit(1), IntegerLit(1)])))]))
+])

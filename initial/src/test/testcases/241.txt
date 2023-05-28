@@ -1,0 +1,21 @@
+     
+        search: function integer(arr: array [5] of integer , n: integer, x: integer) {
+            i: integer;
+   for(i = 0, i < n, i+1) {
+    if(arr[i] == x) {
+      return i;
+    }
+  }
+  
+  return -1;
+}       
+                main: function void(){
+                        arr: array [6] of integer ;
+                        arr = {5, 2, 8, 4, 1, 3};
+                        n, x: integer;
+  n = 6;
+  x = 4;
+  
+  result = search(arr, n, x);
+                    }
+                

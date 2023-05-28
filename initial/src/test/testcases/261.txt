@@ -1,0 +1,8 @@
+            
+                main: function void(){
+                         r, s, t, k: string = "heeloo", "woeirsdf", "asdtdg" , "asertd";
+                       if(r::s == t::k)
+                       {r=s;}
+                         
+                    }
+                

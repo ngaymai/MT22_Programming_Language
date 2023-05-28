@@ -1,0 +1,8 @@
+            
+                main: function void(){
+                    x: tring;
+                    x = "Kangxi ;
+                    for(i = 0 , i < 3, i + 1)
+                    printString(x[i]);
+                    }
+                

@@ -1,0 +1,13 @@
+
+        foo1: function integer(inherit a: integer, b: integer, inherit out c: string, d: float) {
+            return a+b;
+        }
+
+        foo: function integer(x: string, y: integer) inherit foo1 {
+            preventDefault();
+            a: integer = 1;
+            b: integer = 2;
+            d: float = 3.4;            
+            return 1;
+        }
+        

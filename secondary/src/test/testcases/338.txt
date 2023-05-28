@@ -1,0 +1,9 @@
+
+                        x, y, z: array [5] of integer;
+                    f1: function array [5] of integer (n: array [5] of integer){
+                        return n;
+                    }
+                    main: function void(){
+                        a, b, c: array [2,2] of float;
+                    }
+                    

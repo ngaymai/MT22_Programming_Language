@@ -1,0 +1,20 @@
+
+        foo: function auto() {}
+        inc : function void (out b : integer, d: float) inherit foo{
+              super();
+              foo();
+              a: integer = 1 % foo();
+              c: integer = 124;
+        }
+        foo : function void (inherit n: float, f: integer){}
+
+               foo: function void (b: auto, c: auto){
+            d: string;
+            a: string = b + d;
+
+        }
+        b: integer = foo();
+        main: function void() {
+
+        }
+        

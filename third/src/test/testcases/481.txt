@@ -1,0 +1,10 @@
+
+        a : array [2] of integer;
+        foo: function auto(x: integer){}
+        fact : function integer (n : integer) {
+            foo: float = 3.0;
+            b: integer;
+            n1: boolean = -foo(1) == true;
+        }
+        main: function void(){}
+    

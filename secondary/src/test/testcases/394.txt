@@ -1,0 +1,5 @@
+
+            a : string = "213123213\'" ;
+            str : string = "	too(;_;)many(;_;)test(;_;)cases(;_;)	" ;
+
+                

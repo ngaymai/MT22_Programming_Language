@@ -1,0 +1,4 @@
+main: function void() {
+            i: integer = 0;
+            while(i<10) i= i+1;
+        }

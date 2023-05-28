@@ -1,0 +1,8 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([VarDecl(r, IntegerType), VarDecl(c, IntegerType), VarDecl(a, ArrayType([10, 10], IntegerType)), VarDecl(transpose, ArrayType([10, 10], IntegerType)), CallStmt(printf, StringLit(Enter rows and columns: )), CallStmt(scanf, StringLit(%d %d), Id(r), Id(c)), CallStmt(printf, StringLit(
+Enter matrix elements:
+)), ForStmt(AssignStmt(Id(i), IntegerLit(0)), BinExpr(<, Id(i), Id(r)), BinExpr(+, Id(i), IntegerLit(1)), ForStmt(AssignStmt(Id(j), IntegerLit(0)), BinExpr(<, Id(j), Id(c)), BinExpr(+, Id(j), IntegerLit(1)), BlockStmt([CallStmt(printf, StringLit(Enter element a%d%d: ), BinExpr(+, Id(i), IntegerLit(1)), BinExpr(+, Id(j), IntegerLit(1))), CallStmt(scanf, StringLit(%d), ArrayCell(a, [Id(i), Id(j)]))]))), CallStmt(printf, StringLit(
+Entered matrix: 
+)), ForStmt(AssignStmt(Id(i), IntegerLit(0)), BinExpr(<, Id(i), Id(r)), BinExpr(+, Id(i), IntegerLit(1)), ForStmt(AssignStmt(Id(j), IntegerLit(0)), BinExpr(<, Id(j), Id(c)), BinExpr(+, Id(j), IntegerLit(1)), BlockStmt([CallStmt(printf, StringLit(%d  ), ArrayCell(a, [Id(i), Id(j)])), IfStmt(BinExpr(==, Id(j), BinExpr(-, Id(c), IntegerLit(1))), CallStmt(printf, StringLit(
+)))]))), ForStmt(AssignStmt(Id(i), IntegerLit(0)), BinExpr(<, Id(i), Id(r)), BinExpr(+, Id(i), IntegerLit(1)), ForStmt(AssignStmt(Id(j), IntegerLit(0)), BinExpr(<, Id(j), Id(c)), BinExpr(+, Id(j), IntegerLit(1)), BlockStmt([AssignStmt(ArrayCell(transpose, [Id(j), Id(i)]), ArrayCell(a, [Id(i), Id(j)]))])))]))
+])

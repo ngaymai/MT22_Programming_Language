@@ -1,0 +1,17 @@
+
+                    age : integer;
+                    x, y, z: array [5] of integer;
+                       a,b,c: auto = 1,2.3,true;
+                       s,g,r : auto = x + age, y - age, z*foo(age);
+                    main: function void(){
+                         s = {true, true, false, true};
+                         while ((age > 0) && (age <= 100)) {
+                            Write("Enter age (1 - 100): ");
+    		                Readln(age);
+    		                if (age < 1)
+    			                Writeln("Age cannot be less than 1...");
+    		                if (age > 100)
+    			                Writeln("Age cannot be greater than 100...");
+                         }
+               }
+                    

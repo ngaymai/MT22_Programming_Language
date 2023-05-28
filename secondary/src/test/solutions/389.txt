@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([VarDecl(a, FloatType, FloatLit(1021.0)), VarDecl(b, FloatType, FloatLit(21.0)), VarDecl(c, FloatType, FloatLit(1012332000.0)), VarDecl(d, FloatType, FloatLit(200.0)), VarDecl(e, FloatType, FloatLit(0.0)), VarDecl(r, IntegerType), VarDecl(s, IntegerType), VarDecl(a, ArrayType([10], IntegerType)), VarDecl(b, ArrayType([10], IntegerType)), AssignStmt(Id(r), FloatLit(4.0)), AssignStmt(Id(s), BinExpr(*, Id(r), Id(myPI))), AssignStmt(ArrayCell(a, [IntegerLit(0)]), Id(s))]))
+])

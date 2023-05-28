@@ -1,0 +1,13 @@
+
+        main:function void() {
+        a: integer;
+        if (a==1) {
+            a: integer = 1;
+            b: float = 2.3;
+            if (b>2) {
+                a: float = 1.1;
+                a: string ;
+            }
+        }
+        }
+        

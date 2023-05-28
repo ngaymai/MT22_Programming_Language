@@ -1,0 +1,4 @@
+Program([
+	FuncDecl(nty, FloatType, [], None, BlockStmt([VarDecl(c, IntegerType), VarDecl(y, IntegerType), VarDecl(t, IntegerType), CallStmt(htg, )]))
+	FuncDecl(main, IntegerType, [], None, BlockStmt([AssignStmt(Id(i), FuncCall(f, [FuncCall(g, [ArrayCell(h, [BinExpr(*, IntegerLit(5), FuncCall(t, [IntegerLit(9), IntegerLit(1)]))])])]))]))
+])

@@ -1,0 +1,9 @@
+
+                    main: function void () {
+                    i: integer;
+                    a,b,c: array [5,3] of integer;
+                    for( i = 1, i < 10, i+1)
+                        if (!i)
+                            printinteger(4);
+                    }
+                    

@@ -1,0 +1,23 @@
+
+        foo: function auto(b: integer, c: auto) inherit foo1 {
+            super(1,2);
+            x: integer = 1;
+        }
+
+        main:function void() {
+            b: integer = 1;
+            a:auto = b<100;
+            d: auto = "abc" :: "def";
+            c:auto = foo(1, d);
+            foo1(1,2);
+            foo(1, "3123");
+            foo1(1, 1.2);
+            foo(1, 2);
+            a = c;
+            c = 1000;
+        }
+        
+        foo1: function auto(inherit x: auto, y: auto) {
+        
+        }
+        

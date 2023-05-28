@@ -1,0 +1,11 @@
+
+                    main: function void() {
+                    arr: array [2] of boolean;
+                    arr = {true, false};
+                         if(true || arr[1])
+                         {
+                         x : integer;
+                         }
+
+                    }
+                    

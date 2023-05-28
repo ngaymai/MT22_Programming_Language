@@ -1,0 +1,11 @@
+Program([
+	VarDecl(x, IntegerType, IntegerLit(1))
+	VarDecl(y, IntegerType, IntegerLit(2))
+	VarDecl(z, IntegerType, IntegerLit(3))
+	VarDecl(a, FloatType)
+	VarDecl(b, AutoType, IntegerLit(1))
+	VarDecl(c, ArrayType([3, 2], IntegerType))
+	FuncDecl(foo, IntegerType, [Param(a, IntegerType)], None, BlockStmt([]))
+	FuncDecl(fact, FloatType, [Param(b, FloatType), InheritParam(c, StringType)], foo, BlockStmt([]))
+	FuncDecl(main, VoidType, [], None, BlockStmt([CallStmt(super, Id(a), Id(b), Id(c))]))
+])

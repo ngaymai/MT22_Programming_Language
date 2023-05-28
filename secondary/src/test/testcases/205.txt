@@ -1,0 +1,33 @@
+
+        main: function void() {
+                    r, c: integer;
+                    // a[10,10], transpose[10,10]
+
+                    a, transpose: array [10,10] of integer;
+
+                printf("Enter rows and columns: ");
+                scanf("", r, c);
+
+                // asssigning elements to the matrix
+                printf("Enter matrix elements:");
+                for (i = 0, i < r, i+1)
+                for (j = 0, j < c, j+1) {
+                    printf("Enter element a: ", i + 1, j + 1);
+                    scanf("", a[i,j]);
+                }
+
+                // printing the matrix a[][]
+                printf("Entered matrix: ");
+                for (i= 0, i < r, i+1)
+                for (j = 0, j < c, j+1) {
+                    printf("  ", a[i,j]);
+                    if (j == c - 1)
+                    printf("");
+                }
+
+                // computing the transpose
+                for (i = 0, i < r, i+1)
+                for (j = 0, j < c, j+1) {
+                    transpose[j,i] = a[i,j];
+                }
+            }

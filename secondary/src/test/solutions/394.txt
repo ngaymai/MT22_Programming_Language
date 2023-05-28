@@ -1,0 +1,4 @@
+Program([
+	VarDecl(a, StringType, StringLit(213123213\'))
+	VarDecl(str, StringType, StringLit(	too(;_;)many(;_;)test(;_;)cases(;_;)	))
+])

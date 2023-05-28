@@ -1,0 +1,13 @@
+Program([
+	VarDecl(a, FloatType)
+	VarDecl(b, FloatType)
+	VarDecl(c, FloatType)
+	VarDecl(x, BooleanType)
+	VarDecl(y, BooleanType)
+	VarDecl(z, BooleanType)
+	VarDecl(g, IntegerType)
+	VarDecl(h, IntegerType)
+	VarDecl(y, IntegerType)
+	FuncDecl(nty, BooleanType, [], None, BlockStmt([VarDecl(x, IntegerType), VarDecl(y, IntegerType), VarDecl(z, IntegerType), CallStmt(readLine, ), AssignStmt(Id(fs), FuncCall(readDtdin, [])), DoWhileStmt(BinExpr(&&, BooleanLit(True), BooleanLit(False)), BlockStmt([ForStmt(AssignStmt(Id(i), IntegerLit(4)), BinExpr(>, Id(i), IntegerLit(6)), BinExpr(-, Id(i), IntegerLit(1)), IfStmt(BinExpr(>, Id(i), IntegerLit(6)), ReturnStmt(IntegerLit(0))))])), ReturnStmt(IntegerLit(1))]))
+	FuncDecl(main, IntegerType, [], None, BlockStmt([]))
+])

@@ -1,0 +1,14 @@
+
+                        x: integer = 10;
+                        y: float = 10.5;
+                        z: string = "hello";
+                    foo: function string (a:string, out b:string)
+                    {
+                        b = a;
+                        return b;
+                    }
+                    main: function void()
+                    {
+                        foo(z);
+                    }
+                    

@@ -1,0 +1,14 @@
+xsadgf: float = 6.5;       
+            asdf: function float (out t: float, x: float){
+            x = readFloat();
+            t = x* xsadgf;
+            return t;
+            }        
+            printflo: function void(sdt: float){
+            writeFloat(std);
+            }
+                main: function void(){                  
+                    ddd, ff, et : float = 0, 2,3;
+                    printflo(asdf(ddd, ff*et));
+                    
+                }

@@ -1,0 +1,8 @@
+            
+                main: function void(){
+                    x: array [3] of string;
+                    x = {"Kangxi", "Yongzheng", "Qianlong"};
+                    for(i = 0 , i < 3, i + 1)
+                    printString(x[i]);
+                    }
+                

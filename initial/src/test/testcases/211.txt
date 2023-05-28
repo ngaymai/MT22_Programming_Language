@@ -1,0 +1,8 @@
+x: string = "abcabc";
+                add: function integer (n: string){
+                    return n::"abc";                   
+                }
+                
+                main: function void(){                    
+                    printstring(add(x));
+                }

@@ -1,0 +1,6 @@
+
+                main: function void(){                  
+                    ddd, ff, et : float = 1, 2,3;
+                    ddd = ddd - ff * et /ddd ;
+                    
+                }

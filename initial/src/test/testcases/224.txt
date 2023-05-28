@@ -1,0 +1,4 @@
+               
+                main: function void(){
+                    printInt(123*(1234 + 343 - 345/(3+5)))  ;
+                }

@@ -1,0 +1,13 @@
+   main: function integer () {
+         n: integer;
+         n=readInteger();
+           if (n == 0) return 1;
+           else return n * fact(n - 1);
+           }
+           inc: function void( n: integer, delta: integer) {
+           n = n + delta;
+           for (i = 1, i < 10, i + 1) {
+               writeInt(i);
+               break ; //add more space between "break" and ';'
+               }
+           }

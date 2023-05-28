@@ -1,0 +1,10 @@
+            
+                main: function void(){
+                         r, s: string;
+                         r = "hello";                         
+                         s = "world";
+                         a: array [2] of string;
+                         a = {"abc","xyz"};
+                         a[0] = a[1] :: r :: s;
+                    }
+                

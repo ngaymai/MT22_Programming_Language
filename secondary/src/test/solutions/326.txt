@@ -1,0 +1,5 @@
+Program([
+	VarDecl(x, BooleanType, BooleanLit(True))
+	FuncDecl(foo, StringType, [Param(a, BooleanType), Param(b, BooleanType)], None, BlockStmt([IfStmt(Id(a), ReturnStmt(Id(b)), ReturnStmt(Id(a)))]))
+	FuncDecl(main, VoidType, [], None, BlockStmt([VarDecl(y, BooleanType, UnExpr(!, Id(x))), CallStmt(foo, UnExpr(!, Id(x)), Id(y))]))
+])

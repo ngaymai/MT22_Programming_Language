@@ -1,0 +1,11 @@
+
+                        x: integer = 10;
+
+                    foo: function string (a:integer, b: integer){
+                        return a + b;
+                    }
+                    main: function void(){
+                        w: integer;
+                        w = x + foo(10,20);
+                    }
+                    

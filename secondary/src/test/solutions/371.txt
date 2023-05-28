@@ -1,0 +1,4 @@
+Program([
+	FuncDecl(fact, IntegerType, [Param(n, IntegerType)], None, BlockStmt([WhileStmt(BinExpr(&&, BinExpr(||, BinExpr(==, Id(n), IntegerLit(10)), BinExpr(==, Id(n), IntegerLit(20))), BinExpr(==, Id(n), IntegerLit(30))), BlockStmt([VarDecl(delta, IntegerType, FuncCall(fact, [IntegerLit(3)])), CallStmt(inc, Id(x), Id(delta), Id(alpha)), DoWhileStmt(BinExpr(==, BinExpr(+, IntegerLit(1), IntegerLit(4)), IntegerLit(2)), BlockStmt([CallStmt(printHello, )]))]))]))
+	FuncDecl(main, VoidType, [], None, BlockStmt([VarDecl(a, IntegerType, IntegerLit(4)), VarDecl(b, IntegerType, IntegerLit(3)), VarDecl(c, IntegerType, IntegerLit(55)), CallStmt(fact, BinExpr(+, Id(c), IntegerLit(10)))]))
+])

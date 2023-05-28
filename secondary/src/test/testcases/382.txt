@@ -1,0 +1,23 @@
+
+                    a,b,c: float;
+                    x,y,z: boolean;
+                    g,h,y: integer;
+                    nty: function boolean(){
+                        x,y,z: integer;
+                        readLine();
+                        //this is readLine()
+                        fs = readDtdin();
+                        do{
+                        for(i = 4, i>6, i - 1)
+                            if (i >6) return 0;
+                        } while(true && false);
+                        return 1;
+                    }
+                    main: function integer () {
+                        /*
+                        nty();
+                        a;sdf
+                        */
+                    }
+
+                    

@@ -1,0 +1,27 @@
+
+        foo: function auto(b: integer, c: string) {
+        a: string = "abc";
+        return a;
+        }
+        main:function void(c: float) {
+            a: integer;
+            b: float;
+            e,e1: boolean;
+            d: string;
+            // integer
+            // a = foo(a, d);
+            a =  1+2-2*3/4%5;
+            // float
+            b = 1.1+2.2+3*9-2.2*3.3/4.4;
+            b=1*2.2+3/23+10+b+10;
+            // string
+            d = "abc"::("def"::d);
+
+            // boolean
+            e= true||false&&true;
+            e = !e;
+            e = e&&e1;
+
+            e = ((((((1==true)!=(e!=1000))<10.1)>20)<=30)>=2010.123121)+2;
+        }
+        

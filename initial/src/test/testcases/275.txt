@@ -1,0 +1,10 @@
+main: function void() { 
+                arr: array [2] of string;
+                arr = {"asdfds", "sdfaesdf"};                 
+                     if(true || "sdfer")
+                     {
+                     x : integer;
+                     }
+                        
+        }
+        

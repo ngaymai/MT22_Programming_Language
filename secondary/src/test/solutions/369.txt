@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([VarDecl(a, FloatType, FuncCall(readFloat, [])), VarDecl(b, FloatType, FuncCall(readFloat, [])), VarDecl(c, FloatType, FuncCall(readFloat, [])), VarDecl(delta, FloatType, FuncCall(readFloat, [])), VarDecl(x1, FloatType, FuncCall(readFloat, [])), VarDecl(x2, FloatType, FuncCall(readFloat, [])), AssignStmt(Id(delta), BinExpr(-, BinExpr(*, Id(b), Id(b)), BinExpr(*, BinExpr(*, IntegerLit(4), Id(a)), Id(c)))), IfStmt(BinExpr(<, Id(delta), IntegerLit(0)), BlockStmt([CallStmt(printString, StringLit(The equation has no real roots.\n))]), BlockStmt([AssignStmt(Id(x1), BinExpr(/, UnExpr(-, Id(b)), BinExpr(*, IntegerLit(2), Id(a)))), CallStmt(printString, StringLit(The only solution is: \n))]))]))
+])

@@ -1,0 +1,6 @@
+
+                    main: function void ()
+                    {
+                        printinteger(4);
+                    }
+                    

@@ -1,0 +1,15 @@
+
+        foo: function void (x: integer, a_123: string) {
+            i: integer = 150;
+            {
+                {
+                    while (true) {
+                        return -1;
+                        for (i = 150, i > 0, i-1) {
+                            writeln("as;djfs;ghsdjfewofj");
+                        }
+                    }
+                }
+            }
+        }
+        

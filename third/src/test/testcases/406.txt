@@ -1,0 +1,13 @@
+
+        foo: function auto(b: integer, c: string) {
+        a: string = "abc";
+        return 0;
+        }
+        main:function void() {
+            a: integer;
+            main: integer;
+            for(a=1, a<10, a+1) {
+             a = 1*2+true/3.3;
+            }
+        }
+        

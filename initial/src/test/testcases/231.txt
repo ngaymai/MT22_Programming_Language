@@ -1,0 +1,15 @@
+            
+                main: function void(){
+                a: float = 9.34354;
+                b: integer = 23445;
+                        for(i = 0 , i < 10, i+1){
+                        if((a > 1) && (b < 5))
+                        {
+                        while (1!=0){
+                        printString("acss");
+                        break;
+                        }
+                        }
+                        }
+                    }
+                

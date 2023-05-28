@@ -1,0 +1,41 @@
+
+                    age : integer;
+                       x, y, z: array [5] of integer;
+                       a,b,c: integer = 1,2,3;
+                       s,g,r : array [4] of boolean ;
+
+                    f1: function array [5] of integer (n: array [5] of boolean){
+                        i: integer;
+                        t,y,e: boolean = true, false, true;
+
+                        if((n[1]==n[2]) && (n[3]==n[4]))
+                            return f1(x);
+                        else
+                            {
+                                do{
+                                    i = i + 1;
+                                    while((i ==j) || (j!=i))
+                                        for(i=1, i< j+1, i*5)
+                                            return index(x[5] + y[4] - -z[7]);
+                                }while(a[i] == a[i+1]);
+                            }
+                        for (i = 0, i < 5, i + 1)
+                            n[i] = n[i] + n[i + 1];
+                        if(n[3] == n[4])
+                            return n;
+                    }
+                    index: function integer(a: array [5] of integer ){
+                        return a[2];
+                    }
+                    main: function void(){
+                         s = {true, true, false, true};
+                         while ((age > 0) && (age <= 100)) {
+                            Write("Enter age (1 - 100): ");
+    		                Readln(age);
+    		                if (age < 1)
+    			                Writeln("Age cannot be less than 1...");
+    		                if (age > 100)
+    			                Writeln("Age cannot be greater than 100...");
+                         }
+                    }
+                    

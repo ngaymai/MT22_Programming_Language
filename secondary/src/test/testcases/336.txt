@@ -1,0 +1,7 @@
+
+                    x, y, z: array [5] of integer  ;
+
+                    main: function void(){
+                        a, b, c: array [2,2] of float ;
+                    }
+                    

@@ -1,0 +1,16 @@
+
+                main: function void(){
+        arr: array [5] of integer;
+        arr = {1, 2, 3, 4, 5};
+    i, sum: integer = 0, 0;
+    avg: float;
+
+    for (i = 0, i < 5, i+1) {
+        sum = sum + arr[i] ;
+    }
+
+    avg = sum / 5;
+
+    printString("Average = ");
+    writeFloat(avg);
+                }

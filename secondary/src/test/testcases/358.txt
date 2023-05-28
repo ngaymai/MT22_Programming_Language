@@ -1,0 +1,23 @@
+
+                    main: function void(){
+                         s = {true, true, false, true};
+                         i: integer = 0;
+                         for(i = 0, i<10, i+1)
+                         {
+                            while(s[i] == true)
+                                {
+                                    j: integer;
+                                    for(j = 0, j<10, j + 1)
+                                        {
+                                            do{
+                                                s[i] = s[j] + j * i;
+                                                if(true)
+                                                    print("absdlfasdf");
+                                                else
+                                                    break;
+                                            } while(s[i + j] == !true);
+                                        }
+                                }
+                         }
+                    }
+                    

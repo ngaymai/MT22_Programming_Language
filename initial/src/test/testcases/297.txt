@@ -1,0 +1,19 @@
+  
+               main: function integer () {
+                 n: integer;
+                 n=readInteger();
+                   if (n == 0) return 1;
+                   else
+                       return n * fact(n - 1);
+               }
+               inc: function void( n: integer, delta: integer) {
+                   n = n + delta;
+                   check: boolean = false;
+                   if (n>3&&delta<3)
+                       check=true;
+                   while (n>3&&delta<3){
+                       printInteger(n);
+                       n--;
+                       delta=delta+4;
+                   }
+               }

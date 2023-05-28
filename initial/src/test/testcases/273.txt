@@ -1,0 +1,8 @@
+main: function void() {                  
+                     if(true || 1+2 > 0)
+                     {
+                     x : integer;
+                     }
+                        
+        }
+        

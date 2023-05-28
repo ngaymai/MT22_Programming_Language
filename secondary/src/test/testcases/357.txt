@@ -1,0 +1,9 @@
+
+                       x, y, z: array [5] of integer;
+                       a,b,c: auto = 1,2.3,true;
+                       s,g,r : auto = x, y, z;
+
+                    main: function void(){
+
+                    }
+                    

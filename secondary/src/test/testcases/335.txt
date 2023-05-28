@@ -1,0 +1,23 @@
+
+                        x,y,z, t: float = 1.234, 2.345, 0.12345, 2.345;
+
+                    f1: function boolean (f: boolean){
+                        if (a && b || c) return b;
+                        else return a;
+                    }
+                    f2: function float (a: float, b: float){
+                        if(a == b)
+                            return f1(z != t);
+                        else
+                            return f1(z == t);
+                    }
+                    main: function void(){
+                        while(f1(true))
+                            if(true)
+                                f1(x * y + z - t);
+                            if(false)
+                                f2(1.342);
+                            else
+                                f1(!f2());
+                    }
+                    

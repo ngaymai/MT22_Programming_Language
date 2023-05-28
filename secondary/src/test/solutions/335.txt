@@ -1,0 +1,9 @@
+Program([
+	VarDecl(x, FloatType, FloatLit(1.234))
+	VarDecl(y, FloatType, FloatLit(2.345))
+	VarDecl(z, FloatType, FloatLit(0.12345))
+	VarDecl(t, FloatType, FloatLit(2.345))
+	FuncDecl(f1, BooleanType, [Param(f, BooleanType)], None, BlockStmt([IfStmt(BinExpr(||, BinExpr(&&, Id(a), Id(b)), Id(c)), ReturnStmt(Id(b)), ReturnStmt(Id(a)))]))
+	FuncDecl(f2, FloatType, [Param(a, FloatType), Param(b, FloatType)], None, BlockStmt([IfStmt(BinExpr(==, Id(a), Id(b)), ReturnStmt(FuncCall(f1, [BinExpr(!=, Id(z), Id(t))])), ReturnStmt(FuncCall(f1, [BinExpr(==, Id(z), Id(t))])))]))
+	FuncDecl(main, VoidType, [], None, BlockStmt([WhileStmt(FuncCall(f1, [BooleanLit(True)]), IfStmt(BooleanLit(True), CallStmt(f1, BinExpr(-, BinExpr(+, BinExpr(*, Id(x), Id(y)), Id(z)), Id(t))))), IfStmt(BooleanLit(False), CallStmt(f2, FloatLit(1.342)), CallStmt(f1, UnExpr(!, FuncCall(f2, []))))]))
+])

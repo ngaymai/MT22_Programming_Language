@@ -1,0 +1,13 @@
+
+                       x, y, z: array [5] of integer;
+                    f1: function array [5] of integer (n: array [5] of integer){
+                        i: integer;
+                        for (i = 0, i < 5, i + 1)
+                            n[i] = n[i] + n[i + 1];
+                        if(n[3] == n[4])
+                            return n;
+                    }
+                    main: function void(){
+                        a, b, c: array [2,2] of float;
+                    }
+                    

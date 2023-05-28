@@ -1,0 +1,12 @@
+
+        foo1: function integer(z: auto, y: string) {
+            return 1;
+        }
+        foo: function auto(b: integer, c: string) inherit foo1 {
+        preventDefault();
+    d: string = "abc";
+        }
+main:function void() {
+  return 0;
+}
+        

@@ -1,0 +1,14 @@
+
+        foo: function auto(b: integer, c: string) {
+        a: string = "abc";
+         return a;
+        }
+        main:function void(c: float) {
+            a: integer;
+            b: float;
+            e,e1: boolean;
+            d: string;
+            // integer
+            a = foo(a, d);
+        }
+        

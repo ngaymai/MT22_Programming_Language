@@ -1,0 +1,12 @@
+           
+                main: function void(){                     
+ len: integer = 10;  
+ temp : string;
+ str: array [5] of string;
+ str = {"asdfds", "aedsf", "awefasdfas", "sdfew", "edc"};
+    for (i = 0, i < len / 2, i+1) {
+        temp = str[i];
+        str[i] = str[len - i - 1];
+        str[len - i - 1] = temp;
+    }
+                }

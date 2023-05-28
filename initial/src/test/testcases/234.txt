@@ -1,0 +1,18 @@
+              
+                main: function void(){
+                a, b, x: float;
+
+    printString("Enter coefficients a and b: ");
+    readFloat(a);
+    readFloat(b);
+    if (a == 0) {
+        if (b == 0) {
+            printString("The equation has infinite solutions.\n");
+        } else {
+            printString("The equation has no solution.\n");
+        }
+    } else {
+        x = -b / a;
+        writeFloat(x);
+    }
+                }

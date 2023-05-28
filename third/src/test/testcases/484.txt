@@ -1,0 +1,6 @@
+
+        foo2: function boolean(i: integer){}
+        main: function void(){
+            for (i = 123, i > 8, foo2(1)){}
+        }
+    

@@ -1,0 +1,13 @@
+   
+                foo: function boolean(a: integer, b: boolean){
+                if ((a>=b) || (b==0))
+                return true;
+                else 
+                return false;
+                }            
+                main: function void(){
+                x: integer = 0;
+                y: float = 1.2;
+                    foo(2 + x, 4.0 / y);
+
+                }

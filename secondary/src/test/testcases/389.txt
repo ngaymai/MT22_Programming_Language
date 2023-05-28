@@ -1,0 +1,15 @@
+
+                    main: function void() {
+                        a: float = 10.21e2;
+                        b: float = 0.21e2;
+                        c: float = 10_123_32e3;
+                        d: float = 2.e2;
+                        e: float = .e3;
+                        r, s: integer;
+                        a, b: array [10] of integer;
+                        r = 4.0;
+                        s = r * myPI;
+                        a[0] = s;
+                    }
+
+                    

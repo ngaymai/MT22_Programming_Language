@@ -1,0 +1,10 @@
+x, y, z: integer = 1, 2, 3;
+            a: float;
+            b: auto = 1;
+            c: array [3, 2] of integer;
+            
+            foo: function integer(a: integer){}
+            fact: function float(b: float, inherit c: string) inherit foo{}
+            main: function void(){
+                super(a, b, c);
+            }

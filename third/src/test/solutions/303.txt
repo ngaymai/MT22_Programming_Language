@@ -1,0 +1,4 @@
+Program([
+	FuncDecl(foo, IntegerType, [Param(a, IntegerType)], None, BlockStmt([VarDecl(a, FloatType)]))
+	FuncDecl(main, VoidType, [], None, BlockStmt([VarDecl(a, FloatType), IfStmt(IntegerLit(1), AssignStmt(Id(x), IntegerLit(1)), AssignStmt(Id(x), IntegerLit(2)))]))
+])

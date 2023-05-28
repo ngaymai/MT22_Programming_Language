@@ -1,0 +1,14 @@
+
+            main:function void() {
+            a: integer;
+            if (a==1) {
+                a: string = "dads";
+                b: float = 2.3;
+                if (b>2) {
+                    a = "fasfd";
+                }
+                    a= "ffdfssfsfdffs";
+            }
+            a = "3jiojiojoij";
+            }
+            

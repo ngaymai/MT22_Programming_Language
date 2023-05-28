@@ -1,0 +1,7 @@
+            
+                main: function void(){
+                         r, s, t, k: string = "heeloo", "woeirsdf", "asdtdg" , "asertd";
+                       r = r::s::t::k;
+                         
+                    }
+                

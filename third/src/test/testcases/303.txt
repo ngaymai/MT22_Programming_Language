@@ -1,0 +1,9 @@
+foo: function integer(a: integer){
+                a: float;
+            }
+            
+            main: function void(){
+                a: float;
+                if(1) x = 1;
+                else x = 2;
+            }

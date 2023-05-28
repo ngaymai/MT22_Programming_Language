@@ -1,0 +1,12 @@
+
+                        x,y,z: boolean = true, false, true;
+
+                    foo: function boolean (a:boolean, b: boolean, c: boolean){
+                        if (a && b || c) return b;
+                        else return a;
+                    }
+                    main: function void(){
+                       c : boolean = foo(c && t, t || f, f && c);
+
+                    }
+                    

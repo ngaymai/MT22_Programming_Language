@@ -1,0 +1,9 @@
+
+                    main: function void(){
+                             x: array [3,3] of string;
+                        x = {
+                        {"aaa","bbb","ccc"}, {"eee","edc","esae"},{"ewq","eew","erwd"}
+                        };
+                        x[0,0] = x [1,2] :: ((x[2,2] :: x[1,0]) :: x[1,1]);
+                        }
+                    

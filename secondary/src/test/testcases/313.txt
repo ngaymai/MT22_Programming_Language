@@ -1,0 +1,10 @@
+
+                    main: function void () {
+                        i,j,t: integer;
+                        f: boolean;
+                        j = i + 1 + t*4;
+                        for( i = 1, i < 10, i+1)
+                            if (!i)
+                                printinteger(4);
+                    }
+                    

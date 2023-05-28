@@ -1,0 +1,3 @@
+Program([
+	FuncDecl(main, VoidType, [], None, BlockStmt([VarDecl(arr, ArrayType([2], BooleanType)), AssignStmt(Id(arr), ArrayLit([BooleanLit(True), BooleanLit(False)])), IfStmt(BinExpr(||, BooleanLit(True), ArrayCell(arr, [IntegerLit(1)])), BlockStmt([VarDecl(x, IntegerType)]))]))
+])

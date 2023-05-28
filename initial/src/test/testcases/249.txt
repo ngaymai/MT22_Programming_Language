@@ -1,0 +1,4 @@
+               
+                main: function void(){
+                    printString("acd" :: "decxd" :: "esdfe" :: "edatedf")  ;
+                }
